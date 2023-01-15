@@ -43,6 +43,13 @@ ng serve
 
 6. Open your browser and navigate to http://localhost:4200 to see the application running.
 
+## API Endpoints
+*GET /api/Bars: Retrieve a list of all bar items
+*GET /api/Bars/{id}: Retrieve a specific bar item by id
+*POST /api/Bars: Create a new bar item
+*PUT /api/Bars: Update a specific bar item by id
+*DELETE /api/Bars/{id}: Delete a specific bar item by id
+
 ### Running the tests
 
 To run the tests for the ASP.NET Core web application, navigate to the project directory and run the following command:
