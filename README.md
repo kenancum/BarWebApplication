@@ -1,4 +1,4 @@
-# Project Title
+# Bar WebApp
 
 This is a sample project that demonstrates how to build a web application using ASP.NET Core, MongoDB, and AngularJS.
 ## Getting Started
