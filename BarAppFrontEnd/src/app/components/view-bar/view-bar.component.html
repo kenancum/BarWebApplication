@@ -1,0 +1,36 @@
+<div class="container-xl">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4><b>View Bar</b></h4>
+          </div>
+          <div class="col-sm-6">
+            <a href="#" routerLink="/Home" class="btn btn-success back"><i class='fas fa-arrow-circle-left'></i>   Back</a>
+          </div>
+        </div>
+      </div>       
+      <table class="table table-striped table-hover table-bordered table-content">
+        <tbody>
+          <tr>
+            <td><label><b>Name</b></label></td>
+            <td><span>{{ barDetail.Name }}</span></td>
+          </tr>
+          <tr>
+            <td><label><b>Address</b></label> </td>
+            <td><span>{{ barDetail.Address }}</span></td>
+          </tr>
+          <tr>
+            <td> <label><b>Opening Time</b></label></td>
+            <td> <span>{{ barDetail.OpeningTime }}</span></td>
+          </tr>
+          <tr>
+            <td> <label><b>Closing Time</b></label></td>
+            <td><span>{{ barDetail.ClosingTime }}</span></td>
+          </tr>
+        </tbody>
+      </table>       
+    </div>
+  </div>
+</div>
